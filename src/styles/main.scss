@@ -1,5 +1,15 @@
-$bg-color: rgb(0, 170, 255) ;
+@use 'variaveis';
+@use 'header';
+@use 'hero';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
 
 body {
-    background-color: $bg-color;
+    background-color: variaveis.$corDeFundo;
 }
