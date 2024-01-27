@@ -67,3 +67,32 @@ body {
     @include text(18px);
     text-decoration: underline;
 }
+
+.trailer {
+    background-color: #f9f9f9;
+    padding: 5.6vw;
+    display: block;
+    text-align: center;
+
+    .title--big {
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    iframe {
+        margin-top: 32px;
+        border-radius: 16px;
+        max-width: 640px;
+        max-height: 360px;
+    }
+}
+
+.assistir {
+    padding: 5.6vw;
+    display: block;
+    text-align: center;
+
+    .title--big {
+        text-transform: uppercase;
+    }
+}
