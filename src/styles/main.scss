@@ -115,3 +115,24 @@ body {
         }
     }
 }
+
+.footer {
+    background-color: variaveis.$corTextoSecundario;
+    text-align: center;
+    min-height: 15vw;
+
+    img {
+        max-width: 340px;
+    }
+
+    .text--big {
+        color: variaveis.$corDeFundo;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .text--small {
+        color: variaveis.$corDeFundo;
+        font-weight: bold;
+    }
+}
